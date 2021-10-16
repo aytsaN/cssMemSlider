@@ -10,6 +10,7 @@
   text-align: center;
   display: grid;
   grid-template-columns: 80% 20%;
+  overflow: hidden;
 }
 
 .slider {
@@ -93,18 +94,18 @@ input[type=radio] {
 }
 
 #slide1:checked ~ .slider .inner,
-#slide1:checked ~ .text-slider .item-descr {
+#slide1:checked ~ .text-slider {
   margin-left: 0;
 }
 #slide2:checked ~ .slider .inner,
-#slide2:checked ~ .text-slider .item-descr {
+#slide2:checked ~ .text-slider {
   margin-left: -100%;
 }
 #slide3:checked ~ .slider .inner,
-#slide3:checked ~ .text-slider .item-descr {
+#slide3:checked ~ .text-slider {
   margin-left: -200%;
 }
 #slide4:checked ~ .slider .inner,
-#slide4:checked ~ .text-slider .item-descr {
+#slide4:checked ~ .text-slider {
   margin-left: -300%;
 }
