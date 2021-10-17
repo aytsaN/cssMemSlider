@@ -1,10 +1,21 @@
+:root {
+  --bg-color: #bdb1ac;
+}
+
+body {
+  background-color: var(--bg-color);
+}
+
 .content-wrapper {
+  display: grid;
+  grid-template-columns: 70% 30%;
   margin: 10% auto;
+  padding: 1rem;
   max-width: 64rem;
   width: 90%;
-  display: grid;
-  grid-template-columns: 80% 20%;
-  overflow: hidden;
+  font-size: 1.6rem;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: 500;
 }
 
 input[type=radio] {
@@ -39,21 +50,21 @@ input[type=radio] {
 
 .img-slider .item {
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: contain;
   background-position: center;
 }
 
 .img-item1 {
-  background-image: url("assets/file.jpg");
+  background-image: url("assets/pic1.png");
 }
 .img-item2 {
-  background-image: url("assets/resize.png");
+  background-image: url("assets/pic4.jpg");
 }
 .img-item3 {
-  background-image: url("assets/file.jpg");
+  background-image: url("assets/pic3.jpg");
 }
 .img-item4 {
-  background-image: url("assets/resize.png");
+  background-image: url("assets/pic2.jpeg");
 }
 
 .bullets {
@@ -63,33 +74,34 @@ input[type=radio] {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  background-color: #ffffff;
+  background-color: var(--bg-color);
 }
 
 .bullets label {
   display: flex;
-  width: 1rem;
-  height: 1rem;
-  background-color: #ccc;
-  border: 1rem solid #ffffff;
+  width: 1.2rem;
+  height: 1.2rem;
+  background-color: #1b4b5a;
+  border: 1rem solid var(--bg-color);
   border-radius: 100%;
   cursor: pointer;
   transition: .2s;
 }
 
 .bullets label:hover {
-  background-color: khaki;
+  background-color: #0F1F38;
 }
 
 .bullets label:active {
-  background-color: aquamarine;
+  background-color: #0F1F38;
+  opacity: .8;
 }
 
 #slide1:checked ~ .bullets label:nth-child(1),
 #slide2:checked ~ .bullets label:nth-child(2),
 #slide3:checked ~ .bullets label:nth-child(3),
 #slide4:checked ~ .bullets label:nth-child(4) {
-   background: #444;
+   background: #F55449;
 }
 
 #slide1:checked ~ .slider .inner {
