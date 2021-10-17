@@ -75,7 +75,7 @@ input[type=radio] {
 .text-item span {
   padding: 1%;
   background-color: rgb(235, 234, 233);
-  box-shadow: 20px 20px 9px -15px rgba(0, 0, 0, 0.73);
+  box-shadow: 1.25rem 1.25rem .56rem -0.9rem rgba(0, 0, 0, 0.73);
 }
 
 .bullets {
@@ -90,8 +90,8 @@ input[type=radio] {
 
 .bullets label {
   display: flex;
-  width: 2rem;
-  height: 2rem;
+  width: 1.5rem;
+  height: 1.5rem;
   background-color: #ddb265;
   border: 1rem solid var(--bg-color);
   border-radius: 100%;
