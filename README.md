@@ -1,3 +1,3 @@
-Deploy: https://aytsan.github.io/cssMemSlider/cssMemSlider/index.html
+Demo: https://aytsan.github.io/cssMemSlider/cssMemSlider/
 
 Slider implemented without using JS.
