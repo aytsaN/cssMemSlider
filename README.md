@@ -1,4 +1,4 @@
-#CSS Slider
+# CSS Slider
 
 Demo: https://aytsan.github.io/cssMemSlider/cssMemSlider/
 
